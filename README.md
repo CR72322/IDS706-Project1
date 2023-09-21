@@ -1,13 +1,13 @@
 ![CI](https://github.com/nogibjj/Yilin-Pandas-Project/actions/workflows/cicd.yml/badge.svg?event=install)
-# Pandas Descriptive Statistics Script
+# Continuous Integration using GitHub Actions of Python Data Science
 
-This project is a basic demonstration of using the Pandas library in Python to compute descriptive statistics from a CSV data sample. The script loads the data, computes the statistics, and prints the results to the console.
+This project is a basic demonstration of using the Pandas library in Python to compute descriptive statistics from a CSV data sample. The script loads the data, computes the statistics, and prints the results to the console. 
 
 ## Prerequisites
 
 Ensure you have the following installed:
 - Python (3.x recommended)
-- Pandas (`pip install pandas`)
+- Python Dependencies: (pip install -r requirements.txt)
 
 ## Files
 
@@ -44,3 +44,8 @@ Here are some visual results based on the analysis:
 ![Analysis Figure 3](Result/Figure3.png "Figure 3: Cost of a healthy diet in China")
 
 ![Analysis Figure 4](Result/Figure4.png "Figure 4: Top 10 countries with the highest cost of a healthy diet")
+
+## Demo
+
+## References
+Data source: https://ourworldindata.org/explorers/food-prices?tab=chart&time=2019..2021&facet=none&country=NGA~BGD~IND~ETH~MEX~USA~BRA~GBR~CHN&Diet=Healthy+diet&Cost+or+Affordability=Cost+&Affordability+metric=Share+that+cannot+afford
