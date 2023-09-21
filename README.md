@@ -1,5 +1,3 @@
-![CI](https://github.com/nogibjj/Yilin-Pandas-Project/actions/workflows/cicd.yml/badge.svg?event=install)
-
 # Continuous Integration using GitHub Actions of Python Data Science
 
 This project is a basic demonstration of using the Pandas library in Python to compute descriptive statistics from a CSV data sample. The script loads the data, computes the statistics, and prints the results to the console. 
