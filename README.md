@@ -1,6 +1,6 @@
 # Continuous Integration using GitHub Actions of Python Data Science
 
-This project is a basic demonstration of using the Pandas library in Python to compute descriptive statistics from a CSV data sample. The script loads the data, computes the statistics, and prints the results to the console. 
+This project is a basic demonstration of using the Pandas library in Python to compute descriptive statistics from a CSV data sample. The data contains cost of a healthy diet per day. The script loads the data, computes the statistics, and prints the results. 
 
 ## Prerequisites
 
@@ -44,7 +44,8 @@ Here are some visual results based on the analysis:
 
 ![Analysis Figure 4](Result/Figure4.png "Figure 4: Top 10 countries with the highest cost of a healthy diet")
 
-## Demo
+## Video Demo
+https://youtu.be/IOvZsuonbuI
 
 ## References
 Data source: https://ourworldindata.org/explorers/food-prices?tab=chart&time=2019..2021&facet=none&country=NGA~BGD~IND~ETH~MEX~USA~BRA~GBR~CHN&Diet=Healthy+diet&Cost+or+Affordability=Cost+&Affordability+metric=Share+that+cannot+afford
