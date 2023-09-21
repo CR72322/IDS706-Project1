@@ -17,6 +17,20 @@ def plot_cost_trend(data, country):
     plt.grid(True)
     plt.show()
 
+def plot_top_10_countries(data, year):
+    year_data = data[data["Year"] == year]
+    top_10 = year_data.nlargest(10, "Cost of a healthy diet")
+
+    # Define a list of colors
+    colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'brown', 'pink', 'cyan', 'gray']
+    
+    plt.figure(figsize=(12, 8))
+    plt.barh(top_10["Entity"], top_10["Cost of a healthy diet"], color=colors)
+    plt.xlabel('Cost of a Healthy Diet')
+    plt.title(f'Top 10 Countries with Highest Cost of a Healthy Diet in {year}')
+    plt.gca().invert_yaxis()  # This will make the country with the highest cost appear at the top
+    plt.show()
+
 if __name__ == "__main__":
     data = load_data("data/data.csv")
     
@@ -27,3 +41,6 @@ if __name__ == "__main__":
     countries_to_visualize = ["United States", "United Kingdom", "China"]
     for country in countries_to_visualize:
         plot_cost_trend(data, country)
+    
+    # Plotting the top 10 countries for the year 2021
+    plot_top_10_countries(data, 2021)

@@ -37,10 +37,10 @@ python -m unittest tests.test_main
 
 Here are some visual results based on the analysis:
 
-![Analysis Figure 1](Result/main.png "Figure 1: Descriptive Analysis Overview")
+![Analysis Figure 1](Result/Figure1.png "Figure 1: Cost of a healthy diet in US ")
 
-![Analysis Figure 2](Result/test.png "Figure 2: Data Distribution")
+![Analysis Figure 2](Result/Figure2.png "Figure 2: Cost of a healthy diet in UK")
 
-![Analysis Figure 3](Result/Boxplot.png "Figure 3: Boxplot")
+![Analysis Figure 3](Result/Figure3.png "Figure 3: Cost of a healthy diet in China")
 
-![Analysis Figure 4](Result/Histogram.png "Figure 4: Histogram")
+![Analysis Figure 4](Result/Figure4.png "Figure 4: Top 10 countries with the highest cost of a healthy diet")
