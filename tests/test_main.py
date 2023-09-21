@@ -11,13 +11,12 @@ class TestMain(unittest.TestCase):
 
     def test_descriptive_statistics(self):
         data = {
-            'A': [1, 2, 3, 4, 5],
-            'B': [5, 6, 7, 8, 9]
+            'Year': [2017, 2018],
+            'Cost of a healthy diet': [3.952, 4.069]
         }
         df = pd.DataFrame(data)
-        stats = descriptive_statistics(df)
-        self.assertAlmostEqual(stats['A']['mean'], 3.0)
-        self.assertAlmostEqual(stats['B']['mean'], 7.0)
+        stats = descriptive_statistics(df, 'Cost of a healthy diet')
+        self.assertAlmostEqual(stats['mean'], 4.0105)
 
 if __name__ == "__main__":
     unittest.main()
