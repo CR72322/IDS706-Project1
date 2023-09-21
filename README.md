@@ -1,7 +1,4 @@
-![Install Status](https://github.com/nogibjj/IDS706-Project1/workflows/Python%20CI/CD/badge.svg?event=push&job=install)
-![Lint Status](https://github.com/nogibjj/IDS706-Project1/workflows/Python%20CI/CD/badge.svg?event=push&job=lint)
-![Format Status](https://github.com/nogibjj/IDS706-Project1/workflows/Python%20CI/CD/badge.svg?event=push&job=format)
-![Test Status](https://github.com/nogibjj/IDS706-Project1/workflows/Python%20CI/CD/badge.svg?event=push&job=test)
+![CI](https://github.com/nogibjj/Yilin-Pandas-Project/actions/workflows/cicd.yml/badge.svg?event=install)
 
 # Continuous Integration using GitHub Actions of Python Data Science
 
